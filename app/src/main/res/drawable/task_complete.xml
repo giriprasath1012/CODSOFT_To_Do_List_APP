@@ -1,0 +1,19 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Circle -->
+    <shape android:shape="oval">
+        <solid android:color="#00FF00"/> <!-- Green color -->
+    </shape>
+
+    <!-- Bolder Tick Symbol -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M8,17L4,13L3,14.41L8,19L21,6L20,5L8,17Z"
+        android:strokeWidth="2"
+        android:strokeColor="#00FF00"/> <!-- Green color for the stroke -->
+</vector>
